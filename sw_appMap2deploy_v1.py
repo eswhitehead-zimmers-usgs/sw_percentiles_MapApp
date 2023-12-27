@@ -15,7 +15,7 @@ import plotly.express as px
 
 def load_dat():
 # This function loads in gw latlong 
-    trends_all_sites = pd.read_csv(r"C:\Users\eswhitehead-zimmers\OneDrive - DOI\Documents\Python_Projects\percentile-trends\Data\sw_trends_all_sites.csv",
+    trends_all_sites = pd.read_csv("sw_trends_all_sites.csv",
                                    index_col = 0,
                                    dtype = {"site_no": "string"})
     
